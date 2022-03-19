@@ -6,7 +6,9 @@ namespace modul4_1302202072 // Note: actual namespace depends on the project nam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            penjumlahan<double> jumlah = new penjumlahan<double>();
+            Console.WriteLine(jumlah.PenjumlahanTigaAngka<double>(1.3, 0.2, 2.0));
+
         }
     }
 }
