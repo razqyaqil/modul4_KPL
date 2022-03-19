@@ -6,7 +6,11 @@ namespace modul4_1302202072 // Note: actual namespace depends on the project nam
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           SimpleDataBase<int> dataBase = new SimpleDataBase<int>();
+            dataBase.AddNewData(12, DateTime.Now);
+            dataBase.AddNewData(34, DateTime.Now);
+            dataBase.AddNewData(56, DateTime.Now);
+            dataBase.PrintAllData();    
         }
     }
 }
